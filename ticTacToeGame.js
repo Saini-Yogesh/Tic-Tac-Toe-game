@@ -98,6 +98,7 @@ darkModeButton.addEventListener("click", () => {
     darkModeButton.style.backgroundColor = "white";
     darkModeButton.style.color = "black";
     winner.style.color = "white";
+    darkModeButton.innerText = "Light Mode";
   } else {
     currentMode = "light";
     GameName.style.color = "black";
@@ -105,5 +106,6 @@ darkModeButton.addEventListener("click", () => {
     darkModeButton.style.backgroundColor = "black";
     darkModeButton.style.color = "white";
     winner.style.color = "black";
+    darkModeButton.innerText = "Dark Mode";
   }
 });
